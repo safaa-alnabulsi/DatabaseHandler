@@ -22,9 +22,9 @@
         //---------------------------------------------------
         //select all products
         $allProducts = $db->select('product');
-        echo "all products";
+        echo "All products";
         var_dump($allProducts);
-       // ---------------------------------------------------
+        // ---------------------------------------------------
         //select the males products which are amount in the shop is more than 0  
         $selectedColumns = 'DISTINCT `name`, `gender`, `size`, `color`, `amount`';
         $order = '`name`, `amount`, `size`';

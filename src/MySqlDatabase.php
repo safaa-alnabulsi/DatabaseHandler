@@ -118,7 +118,7 @@ class MySqlDatabase implements Database
     }
 
     /**
-     * Get the Where condition as a string wether it was array or simple string
+     * Get the where condition as a string wether it was array or simple string
      * @param string|array $where
      * @return string|array
      */

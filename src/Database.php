@@ -39,7 +39,7 @@ interface Database
 
     /**
      * Delete from a table in the database
-     * @param string $table name of the table
+     * @param string $table name of the table 
      * @param string $where condition
      * @return boolean
      */
@@ -48,7 +48,7 @@ interface Database
     /**
      * Update a row in the database
      * @param string $table name of the table
-     * @param string $values names of the columns we want to update its value
+     * @param string $values names of the columns we want to update its values
      * @param string|array $where condition
      * @return boolean
      */
